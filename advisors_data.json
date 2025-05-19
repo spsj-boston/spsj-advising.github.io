@@ -43,7 +43,7 @@
     "name": "David Sidky",
     "title": "Dentistry",
     "category": "Dental",
-    "image": "advisors/david_sidky.jpeg",
+    "image": "advisors/david_sedky.jpeg",
     "bio": "Hi! My name is David, and I am an Associate Dentist at Navy Yard Dental in Charlestown. I graduated BU Dental in 2023.",
     "email": "david.sidky@example.com",
     "phone": "555-123-4567",
@@ -192,7 +192,7 @@
   {
     "name": "Nebee Yohannes",
     "title": "Optometry",
-    "category": "Other",
+    "category": "Optometry",
     "image": "",
     "bio": "Hi! I am Nebee Yohannes!",
     "email": "nebee.yohannes@example.com",
@@ -202,7 +202,7 @@
   {
     "name": "Lorna Said",
     "title": "Optometry",
-    "category": "Other",
+    "category": "Optometry",
     "image": "advisors/lorna_said.jpeg",
     "bio": "Hi! I am Lorna Said!",
     "email": "lorna.said@example.com",
@@ -232,7 +232,7 @@
   {
     "name": "Maria Megalaa",
     "title": "Writing",
-    "category": "Other",
+    "category": "Writing",
     "image": "advisors/maria_megalaa.jpeg",
     "bio": "I'm Maria Megalaa, a Northeastern University graduate with a biology major and writing minor. I blend scientific thinking with creative expression, channeling my passion into crafting everything from theatrical works to poetry. My unique background allows me to observe the world through both analytical and artistic lenses.",
     "email": "maria.megalaa@example.com",
