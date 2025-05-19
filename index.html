@@ -108,11 +108,24 @@
 
         .category-title {
             color: var(--primary-color);
-            font-size: 1.8rem;
+            font-size: 2.2rem;
             margin-bottom: 1.5rem;
             padding-bottom: 0.5rem;
-            border-bottom: 3px solid var(--accent-color);
+            border-bottom: 3px solid var(--secondary-color);
             display: inline-block;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            position: relative;
+        }
+        
+        .category-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--primary-color);
         }
 
         .advisors-container {
@@ -140,13 +153,15 @@
 
         .advisor-card {
             flex: 0 0 auto;
-            width: 200px;
+            width: 220px;
             background: var(--white);
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             cursor: pointer;
+            margin-bottom: 10px;
+            border: 1px solid rgba(184, 134, 11, 0.1);
         }
 
         .advisor-card:hover {
@@ -158,24 +173,46 @@
             width: 100%;
             height: 200px;
             object-fit: cover;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid rgba(184, 134, 11, 0.3);
+            transition: transform 0.3s ease;
+        }
+        
+        .advisor-card:hover .advisor-image {
+            transform: scale(1.05);
         }
 
         .advisor-info {
             padding: 1rem;
             text-align: center;
+            background: linear-gradient(to bottom, rgba(255,255,255,0.9), rgba(255,255,255,1));
         }
 
         .advisor-name {
-            font-weight: 600;
+            font-weight: 700;
             margin-bottom: 0.25rem;
             color: var(--primary-color);
+            font-size: 1.2rem;
+            line-height: 1.3;
         }
 
         .advisor-title {
-            font-size: 0.9rem;
-            color: #666;
+            font-size: 1rem;
+            color: var(--accent-color);
             margin-bottom: 0.5rem;
+            font-style: italic;
+        }
+        
+        .advisor-initials {
+            width: 100%;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--dark-maroon) 100%);
+            color: white;
+            font-size: 3rem;
+            font-weight: bold;
+            border-bottom: 1px solid rgba(184, 134, 11, 0.3);
         }
 
         .modal {
@@ -290,6 +327,40 @@
             padding-bottom: 0.5rem;
             border-bottom: 2px solid var(--secondary-color);
         }
+        
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: var(--primary-color);
+        }
+        
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(128, 0, 32, 0.1);
+            border-radius: 50%;
+            border-top-color: var(--primary-color);
+            animation: spin 1s ease-in-out infinite;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .error-message {
+            text-align: center;
+            padding: 2rem;
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            background-color: rgba(128, 0, 32, 0.05);
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 600px;
+        }
 
         .contact-info {
             display: flex;
@@ -358,51 +429,13 @@
     </header>
 
     <div class="container">
-        <!-- Dental Category -->
-        <section class="category-section">
-            <h2 class="category-title">Dental</h2>
-            <div class="advisors-container">
-                <!-- Advisor Card 1 -->
-                <div class="advisor-card" onclick="openModal('Dr. Sarah Johnson', 'Dental Surgeon', 'dental', 'https://randomuser.me/api/portraits/women/32.jpg', 'Dr. Johnson has over 15 years of experience in dental surgery and specializes in cosmetic dentistry. She completed her DDS from Harvard School of Dental Medicine and has been practicing in the Boston area for over a decade.', 'sarah.johnson@example.com', '555-0101', '@drsarahj')">
-                    <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Dr. Sarah Johnson" class="advisor-image">
-                    <div class="advisor-info">
-                        <div class="advisor-name">Dr. Sarah Johnson</div>
-                        <div class="advisor-title">Dental Surgeon</div>
-                    </div>
-                </div>
-
-                <!-- Advisor Card 2 -->
-                <div class="advisor-card" onclick="openModal('Dr. Michael Chen', 'Orthodontist', 'dental', 'https://randomuser.me/api/portraits/men/45.jpg', 'Dr. Chen is a board-certified orthodontist with a passion for helping patients achieve their perfect smile. He received his DMD from the University of Pennsylvania and completed his orthodontic residency at NYU.', 'michael.chen@example.com', '555-0102', '@drmichaelc')">
-                    <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Dr. Michael Chen" class="advisor-image">
-                    <div class="advisor-info">
-                        <div class="advisor-name">Dr. Michael Chen</div>
-                        <div class="advisor-title">Orthodontist</div>
-                    </div>
-                </div>
-
-                <!-- Add more advisor cards as needed -->
-            </div>
-        </section>
-
-        <!-- Medical Category -->
-        <section class="category-section">
-            <h2 class="category-title">Medical</h2>
-            <div class="advisors-container">
-                <!-- Advisor Card 1 -->
-                <div class="advisor-card" onclick="openModal('Dr. Emily Watson', 'Cardiologist', 'medical', 'https://randomuser.me/api/portraits/women/28.jpg', 'Dr. Watson is a renowned cardiologist with expertise in interventional cardiology. She completed her residency at Johns Hopkins Hospital and fellowship at the Cleveland Clinic.', 'emily.watson@example.com', '555-0201', '@dremilyw')">
-                    <img src="https://randomuser.me/api/portraits/women/28.jpg" alt="Dr. Emily Watson" class="advisor-image">
-                    <div class="advisor-info">
-                        <div class="advisor-name">Dr. Emily Watson</div>
-                        <div class="advisor-title">Cardiologist</div>
-                    </div>
-                </div>
-
-                <!-- Add more advisor cards as needed -->
-            </div>
-        </section>
-
-        <!-- Add more categories following the same pattern -->
-        
+        <div id="loading" class="loading-container">
+            <div class="loading-spinner"></div>
+            <p>Loading advisors...</p>
+        </div>
+        <div id="advisors-container" style="display: none;">
+            <!-- Categories will be dynamically populated here -->
+        </div>
     </div>
 
     <!-- Modal -->
@@ -491,6 +524,136 @@
                 closeModal();
             }
         };
+
+        // Load advisor data and populate categories
+        document.addEventListener('DOMContentLoaded', async function() {
+            const loadingElement = document.getElementById('loading');
+            const advisorsContainer = document.getElementById('advisors-container');
+            
+            try {
+                const response = await fetch('advisors_data.json');
+                const advisors = await response.json();
+                
+                // Group advisors by category
+                const categoriesMap = {};
+                
+                // Define the order of categories
+                const categoryOrder = [
+                    "Dental",
+                    "Medical",
+                    "Pharmacy",
+                    "Architecture",
+                    "Occupational Therapy",
+                    "Biomedical Engineering",
+                    "Maths and Academia",
+                    "Military",
+                    "Biology/Academia",
+                    "Clinical Psychology",
+                    "Computer Sciences and AI",
+                    "Electrical Engineering",
+                    "Law",
+                    "Higher Education/Student Affairs"
+                ];
+                
+                // Group advisors by category
+                advisors.forEach(advisor => {
+                    if (!categoriesMap[advisor.category]) {
+                        categoriesMap[advisor.category] = [];
+                    }
+                    categoriesMap[advisor.category].push(advisor);
+                });
+                
+                const container = document.getElementById('advisors-container');
+                
+                // Create sections for each category in the specified order
+                categoryOrder.forEach(category => {
+                    const advisorsInCategory = categoriesMap[category] || [];
+                    
+                    // Skip empty categories
+                    if (advisorsInCategory.length === 0) return;
+                    
+                    // Create category section
+                    const section = document.createElement('section');
+                    section.className = 'category-section';
+                    
+                    // Create category title
+                    const title = document.createElement('h2');
+                    title.className = 'category-title';
+                    title.textContent = category;
+                    section.appendChild(title);
+                    
+                    // Create advisors container
+                    const advisorsContainer = document.createElement('div');
+                    advisorsContainer.className = 'advisors-container';
+                    
+                    // Add advisor cards
+                    advisorsInCategory.forEach(advisor => {
+                        const card = document.createElement('div');
+                        card.className = 'advisor-card';
+                        card.onclick = function() {
+                            openModal(
+                                advisor.name,
+                                advisor.title,
+                                advisor.category,
+                                advisor.image,
+                                advisor.bio,
+                                advisor.email,
+                                advisor.phone,
+                                advisor.twitter
+                            );
+                        };
+                        
+                        // Create advisor image
+                        const img = document.createElement('img');
+                        img.src = advisor.image;
+                        img.alt = advisor.name;
+                        img.className = 'advisor-image';
+                        img.onerror = function() {
+                            // If image fails to load, use initials as fallback
+                            this.style.display = 'none';
+                            const initials = document.createElement('div');
+                            initials.className = 'advisor-initials';
+                            const nameInitials = advisor.name.split(' ')
+                                .map(n => n.charAt(0))
+                                .join('');
+                            initials.textContent = nameInitials;
+                            card.insertBefore(initials, this);
+                        };
+                        card.appendChild(img);
+                        
+                        // Create advisor info
+                        const info = document.createElement('div');
+                        info.className = 'advisor-info';
+                        
+                        const name = document.createElement('div');
+                        name.className = 'advisor-name';
+                        name.textContent = advisor.name;
+                        info.appendChild(name);
+                        
+                        const title = document.createElement('div');
+                        title.className = 'advisor-title';
+                        title.textContent = advisor.title;
+                        info.appendChild(title);
+                        
+                        card.appendChild(info);
+                        advisorsContainer.appendChild(card);
+                    });
+                    
+                    section.appendChild(advisorsContainer);
+                    container.appendChild(section);
+                });
+                
+                // Hide loading spinner
+                loadingElement.style.display = 'none';
+                advisorsContainer.style.display = 'block';
+                
+            } catch (error) {
+                console.error('Error loading advisor data:', error);
+                loadingElement.style.display = 'none';
+                advisorsContainer.innerHTML = 
+                    '<div class="error-message">Error loading advisor data. Please try again later.</div>';
+            }
+        });
     </script>
 </body>
 </html>

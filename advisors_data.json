@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Anastasia Mina",
+    "title": "Biomedical Engineering",
+    "category": "Biomedical Engineering",
+    "image": "advisors/anastasia_mina.jpeg",
+    "bio": "Hi! My name is Ana, and I am a Product Development Engineer at Abbott Laboratories with degrees in Biomedical Engineering and Professional Writing (WPI \u201823). I have experience in global waste management efforts, Product Lifecycle Management, validation/verification testing, root cause analysis, project management, and audit support. I am currently leading a cost improvement effort with a cross-functional team under Abbott\u2019s cardiovascular division. I am super excited to meeting and working with you all!",
+    "email": "anastasia.mina@example.com",
+    "phone": "555-123-4567",
+    "twitter": "anastasiamina"
+  },
+  {
+    "name": "Andrew Girgis",
+    "title": "Medicine",
+    "category": "Medical",
+    "image": "advisors/andrew_girgis.jpeg",
+    "bio": "Hi! I\u2019m Andrew Girgis, a 4th-year medical student at BU who is going into orthopedic surgery. I did my undergraduate studies at Boston University, majoring in neurobiology. In my free time, I like to bike all over Boston! I look forward to meeting and working with you all!",
+    "email": "andrew.girgis@example.com",
+    "phone": "555-123-4567",
+    "twitter": "andrewgirgis"
+  },
+  {
+    "name": "Bishoy Galoaa",
+    "title": "Computer Science/AI",
+    "category": "Computer Sciences and AI",
+    "image": "advisors/bishoy_galoaa.jpeg",
+    "bio": "My name is Bishoy Galoaa, I like to teach computers, and I specialize in Machine Learning, AI, and Computer Vision. I currently work in Northeastern University. I am super excited to help everyone and anyone navigate the world of AI!",
+    "email": "bishoy.galoaa@example.com",
+    "phone": "555-123-4567",
+    "twitter": "bishoygaloaa"
+  },
+  {
+    "name": "Clara Fikry",
+    "title": "Biology (PhD)",
+    "category": "Biology/Academia",
+    "image": "advisors/clara_fikry.jpeg",
+    "bio": "",
+    "email": "clara.fikry@example.com",
+    "phone": "555-123-4567",
+    "twitter": "clarafikry"
+  },
+  {
+    "name": "David Sidky",
+    "title": "Dentistry",
+    "category": "Dental",
+    "image": "",
+    "bio": "Hi! My name is David, and I am an Associate Dentist at Navy Yard Dental in Charlestown. I graduated BU Dental in 2023.",
+    "email": "david.sidky@example.com",
+    "phone": "555-123-4567",
+    "twitter": "davidsidky"
+  },
+  {
+    "name": "George Shaker",
+    "title": "Mathematics (PhD)",
+    "category": "Maths and Academia",
+    "image": "advisors/george_shaker.jpeg",
+    "bio": "My name is George, and I am an incoming PhD student at Northwestern University\u2019s Department of Engineering Sciences and Applied Mathematics. I completed my BS in mathematics at MIT, and hail from Fort Worth, TX.",
+    "email": "george.shaker@example.com",
+    "phone": "555-123-4567",
+    "twitter": "georgeshaker"
+  },
+  {
+    "name": "Helda Said",
+    "title": "Dentistry",
+    "category": "Dental",
+    "image": "advisors/helda_said.jpg",
+    "bio": "Hi everyone! My name is Helda Said, a Florida native but Boston educated dental student. I went to UCF in Orlanda, Florida for my bachelor\u2019s in biology, and I\u2019m lucky enough to go to Tufts Dental for my DMD Degree!\u00a0 I\u2019m happy to help in anything and everything. Excited to bring some Southern charm up North!",
+    "email": "helda.said@example.com",
+    "phone": "555-123-4567",
+    "twitter": "heldasaid"
+  },
+  {
+    "name": "James Sidholm",
+    "title": "Biomedical Engineering",
+    "category": "Biomedical Engineering",
+    "image": "",
+    "bio": "Hey there! My name is James Sidholm. I am a Team Lead Engineer at Siemens Healthineers. With a bachelor's degree in Biomedical Engineering from Wentworth Institute of Technology, I have a strong foundation in laboratory diagnostics and extensive hands-on experience. I am passionate about the field and excited to help in any way. My skills include working with various lab equipment, repairing electrical and gas-powered tools, and building computers.",
+    "email": "james.sidholm@example.com",
+    "phone": "555-123-4567",
+    "twitter": "jamessidholm"
+  },
+  {
+    "name": "Justin Parent",
+    "title": "Architecture",
+    "category": "Architecture",
+    "image": "advisors/justin_parent.jpeg",
+    "bio": "Hi guys! My name is Justin Parent! I\u2019m a junior in architecture finishing undergrad next April and doing a +1 masters year after. I\u2019ve worked in both construction management (Landry French construction in Maine) and Gensler in Boston for architecture! During my years in school so far I\u2019ve worked 2 on campus jobs both as an embedded tutor for architectural representation (both physical and digital modeling) and as a makerspace work study (wood shop, laser cutting, 3d printing). Super pumped to help anyone and everyone out!",
+    "email": "justin.parent@example.com",
+    "phone": "555-123-4567",
+    "twitter": "justinparent"
+  },
+  {
+    "name": "Nicole Gendy",
+    "title": "Pharmacy",
+    "category": "Pharmacy",
+    "image": "advisors/nicole_gendy.jpeg",
+    "bio": "",
+    "email": "nicole.gendy@example.com",
+    "phone": "555-123-4567",
+    "twitter": "nicolegendy"
+  },
+  {
+    "name": "Mena Felfil",
+    "title": "Engineering/Electrical Engineering",
+    "category": "Electrical Engineering",
+    "image": "",
+    "bio": "My name is Mena Filfil, and I am currently a student at MIT majoring in Electrical Engineering and Computer Science. I am interested in embedded systems (both hardware and firmware), graphics, efficient ML, circuit design (mixed-signal), and FPGAs. I look forward to helping anyone in their engineering/computer science journey.",
+    "email": "mena.felfil@example.com",
+    "phone": "555-123-4567",
+    "twitter": "menafelfil"
+  },
+  {
+    "name": "Mark Awad",
+    "title": "Military",
+    "category": "Military",
+    "image": "advisors/mark_awad.jpeg",
+    "bio": "My name is Mark Awad, I am going to be a 3rd year Army Cadet, commissioning as a 2nd Lieutenant in the Spring of 2027. I have experience and knowledge in all branches of the military and aspects of the Department of Defense. If you are interested in anything to Military/government related please feel free to reach out to me. Looking forward to meeting you.",
+    "email": "mark.awad@example.com",
+    "phone": "555-123-4567",
+    "twitter": "markawad"
+  },
+  {
+    "name": "Marina Ghobrial",
+    "title": "Occupational Therapy",
+    "category": "Occupational Therapy",
+    "image": "advisors/marina_ghobrial.jpeg",
+    "bio": "",
+    "email": "marina.ghobrial@example.com",
+    "phone": "555-123-4567",
+    "twitter": "marinaghobrial"
+  },
+  {
+    "name": "Mark Hanna",
+    "title": "Law",
+    "category": "Law",
+    "image": "",
+    "bio": "",
+    "email": "mark.hanna@example.com",
+    "phone": "555-123-4567",
+    "twitter": "markhanna"
+  },
+  {
+    "name": "Verena Hanna",
+    "title": "Dentistry",
+    "category": "Dental",
+    "image": "advisors/verena_hanna.jpeg",
+    "bio": "Hi everyone! My name is Verena, I was raised in central Massachusetts. I went to the University of Massachusetts Amherst where I studied public health. I am a recent graduate of Tufts University School of Dental Medicine in Boston. I plan to return back to central MA but work in a practice in Connecticut. I\u2019m very excited to help in any way I can, whether you are still deciding if dentistry is for you or on the journey to get into dental school!",
+    "email": "verena.hanna@example.com",
+    "phone": "555-123-4567",
+    "twitter": "verenahanna"
+  },
+  {
+    "name": "Mark Tadrosse",
+    "title": "Dentistry",
+    "category": "Dental",
+    "image": "",
+    "bio": "",
+    "email": "mark.tadrosse@example.com",
+    "phone": "555-123-4567",
+    "twitter": "marktadrosse"
+  },
+  {
+    "name": "Anastasia El-Bogdadi",
+    "title": "Law",
+    "category": "Law",
+    "image": "",
+    "bio": "Hi everyone! My name is Anastasia El-Bogdadi! I am currently a student at Fletcher school of Law and Diplomacy at Tufts University. My current major is International Legal Studies. I would like to pursue a career in international law, specifically in international criminal law. I have hopes to attend law school after completing my master\u2019s! Looking forward to meet you all!",
+    "email": "anastasia.el-bogdadi@example.com",
+    "phone": "555-123-4567",
+    "twitter": "anastasiael-bogdadi"
+  },
+  {
+    "name": "Angelina Awad",
+    "title": "Clinical Psychology",
+    "category": "Clinical Psychology",
+    "image": "",
+    "bio": "",
+    "email": "angelina.awad@example.com",
+    "phone": "555-123-4567",
+    "twitter": "angelinaawad"
+  },
+  {
+    "name": "Evrosina Awad",
+    "title": "Higher Education/Student Affairs",
+    "category": "Computer Sciences and AI",
+    "image": "advisors/evrosina_awad.jpeg",
+    "bio": "My name is Evrosina I live in Boston and have lived in Massachusetts since I was a little kid. I\u00a0 graduate from Boston University majoring in political science and minoring in Arabic. During my time at BU I worked in the admissions department, the orientation department, in fundraising, and I worked very closely with the dean of students. I am going to graduate school at Boston College to get my masters in higher education with a concentration in student affairs. I have experience in student mentorship, diversity equity and inclusion, as well as college event planning!",
+    "email": "evrosina.awad@example.com",
+    "phone": "555-123-4567",
+    "twitter": "evrosinaawad"
+  },
+  {
+    "name": "Nebee Yohannes",
+    "title": "Optometry",
+    "category": "Other",
+    "image": "",
+    "bio": "",
+    "email": "nebee.yohannes@example.com",
+    "phone": "555-123-4567",
+    "twitter": "nebeeyohannes"
+  },
+  {
+    "name": "Lorna Said",
+    "title": "Optometry",
+    "category": "Other",
+    "image": "advisors/lorna_said.jpeg",
+    "bio": "",
+    "email": "lorna.said@example.com",
+    "phone": "555-123-4567",
+    "twitter": "lornasaid"
+  },
+  {
+    "name": "Judy Labib",
+    "title": "Architecture",
+    "category": "Architecture",
+    "image": "advisors/judy_labib.jpeg",
+    "bio": "Hi! I\u2019m Judy. I studied Architecture at the University of Texas at Austin (5-year program) and graduated in 2022! I chose Architecture because it\u2019s such a multidisciplinary degree, and I knew it would give me the chance to be creative in my career. I\u2019ve worked at a few different architecture firms, and I\u2019m currently at an engineering firm as an architecture/sustainability consultant. I love what I do and really enjoy my job! I\u2019m always happy to chat with anyone interested in architecture, sustainability, or other design degrees.",
+    "email": "judy.labib@example.com",
+    "phone": "555-123-4567",
+    "twitter": "judylabib"
+  },
+  {
+    "name": "Nour Tawfik",
+    "title": "Computer Science",
+    "category": "Computer Sciences and AI",
+    "image": "advisors/nour_tawfik.jpeg",
+    "bio": "Hi I\u2019m Nour! I\u2019m a 3rd student studying computer science and design at Northeastern. I completed two co-ops so far in both UX Design and Frontend-Development!",
+    "email": "nour.tawfik@example.com",
+    "phone": "555-123-4567",
+    "twitter": "nourtawfik"
+  },
+  {
+    "name": "Maria Megalaa",
+    "title": "Writing",
+    "category": "Other",
+    "image": "advisors/maria_megalaa.jpeg",
+    "bio": "I'm Maria Megalaa, a Northeastern University graduate with a biology major and writing minor. I blend scientific thinking with creative expression, channeling my passion into crafting everything from theatrical works to poetry. My unique background allows me to observe the world through both analytical and artistic lenses.",
+    "email": "maria.megalaa@example.com",
+    "phone": "555-123-4567",
+    "twitter": "mariamegalaa"
+  }
+]
