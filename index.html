@@ -328,6 +328,41 @@
             border-bottom: 2px solid var(--secondary-color);
         }
         
+        .register-banner {
+            background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .register-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            font-size: 1.1rem;
+            font-weight: bold;
+            padding: 0.8rem 1.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .register-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            background-color: var(--dark-maroon);
+        }
+        
+        .register-button i {
+            font-size: 1.2rem;
+        }
+        
         .loading-container {
             display: flex;
             flex-direction: column;
@@ -396,6 +431,12 @@
             <h1>SPSJ Advising</h1>
         </div>
     </header>
+    
+    <div class="register-banner">
+        <a href="https://forms.gle/65tpwaB3YyKSmh9P8" target="_blank" class="register-button">
+            <i class="fas fa-user-plus"></i> Register as an Advisee
+        </a>
+    </div>
 
     <div class="container">
         <div id="loading" class="loading-container">
