@@ -362,38 +362,7 @@
             max-width: 600px;
         }
 
-        .contact-info {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-
-        .contact-item {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--primary-color);
-            text-decoration: none;
-            transition: all 0.3s ease;
-            background: rgba(255, 215, 0, 0.1);
-            padding: 0.6rem 1rem;
-            border-radius: 50px;
-            border: 1px solid rgba(255, 215, 0, 0.2);
-            margin: 0.25rem;
-        }
-
-        .contact-item:hover {
-            color: #fff;
-            background: #FF9900;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-item i {
-            width: 20px;
-            text-align: center;
-        }
+        
 
         @media (max-width: 768px) {
             .header-content {
@@ -457,23 +426,7 @@
                     <h3 class="modal-section-title">About</h3>
                     <p id="modalBio"></p>
                 </div>
-                <div class="modal-section">
-                    <h3 class="modal-section-title">Contact Information</h3>
-                    <div class="contact-info">
-                        <a id="modalEmail" href="#" class="contact-item">
-                            <i class="fas fa-envelope"></i>
-                            <span></span>
-                        </a>
-                        <a id="modalPhone" href="#" class="contact-item">
-                            <i class="fas fa-phone"></i>
-                            <span></span>
-                        </a>
-                        <a id="modalTwitter" href="#" target="_blank" class="contact-item">
-                            <i class="fab fa-twitter"></i>
-                            <span></span>
-                        </a>
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -482,24 +435,12 @@
         // Modal functionality
         const modal = document.getElementById('advisorModal');
         
-        function openModal(name, title, category, image, bio, email, phone, twitter) {
+        function openModal(name, title, category, image, bio) {
             document.getElementById('modalName').textContent = name;
             document.getElementById('modalTitle').textContent = title;
             document.getElementById('modalCategory').textContent = category.charAt(0).toUpperCase() + category.slice(1);
             document.getElementById('modalAvatar').src = image;
             document.getElementById('modalBio').textContent = bio;
-            
-            const emailLink = document.getElementById('modalEmail');
-            emailLink.href = `mailto:${email}`;
-            emailLink.querySelector('span').textContent = email;
-            
-            const phoneLink = document.getElementById('modalPhone');
-            phoneLink.href = `tel:${phone}`;
-            phoneLink.querySelector('span').textContent = phone;
-            
-            const twitterLink = document.getElementById('modalTwitter');
-            twitterLink.href = `https://twitter.com/${twitter}`;
-            twitterLink.querySelector('span').textContent = `@${twitter}`;
             
             modal.style.display = 'block';
             document.body.style.overflow = 'hidden';
