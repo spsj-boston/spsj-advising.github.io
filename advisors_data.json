@@ -94,7 +94,7 @@
     "title": "Pharmacy",
     "category": "Pharmacy",
     "image": "advisors/nicole_gendy.jpeg",
-    "bio": "Hi! I am Nico Gendy",
+    "bio": "Hi everyone! My name is Nicole, and I’m a pharmacy student at Northeastern entering my P3 year, planning to graduate with my PharmD in 2027. I’ve also completed minors in Psychology and Human Nutrition, and I’ve gained experience working in three different pharmacy intern positions—feel free to reach out if you have any questions about co-op or the program! Outside of school, I love running and staying active as a way to recharge. I look forward to connecting with you all!",
     "email": "nicole.gendy@example.com",
     "phone": "555-123-4567",
     "twitter": "nicolegendy"
@@ -124,7 +124,7 @@
     "title": "Occupational Therapy",
     "category": "Occupational Therapy",
     "image": "advisors/marina_ghobrial.jpeg",
-    "bio": "Hi! I am Marina Ghobrial!",
+    "bio": "Hi! My name is Marina Ghobrial. I just graduated from Tufts University with my entry level Doctor of Occupational Therapy ( OTD) degree. I have experience working in inpatient acute rehab public schools, and in community centers for adults with intellectual disabilities and dementia. I help facilitate creative arts and crafts groups as well. I have a bachelor’s in Psycholoy and currently studying for my boards",
     "email": "marina.ghobrial@example.com",
     "phone": "555-123-4567",
     "twitter": "marinaghobrial"
@@ -248,5 +248,25 @@
     "email": "sam.banoud@example.com",
     "phone": "555-123-4567",
     "twitter": "sambanoud"
+  },
+  {
+    "name": "Marina Boulos",
+    "title": "Clinical Psychology",
+    "category": "Clinical Psychology",
+    "image": "advisors/marina_boulos.jpeg",
+    "bio": "Hi everyone my name is Marina Boulos! I graduated from the University of Massachusetts Amherst in 2022 with a BS in psychology. I’m currently going into my 4th year of my Clinical Psychology (PsyD) doctoral program at William James College in Newton, MA! I’m excited to get to know you and help in anyway that I can!",
+    "email": "marina.boulos@example.com",
+    "phone": "555-123-4567",
+    "twitter": "marinaboulos"
+  },
+  {
+    "name": "Anastasia Fitian",
+    "title": "Clinical Social Work",
+    "category": "Clinical Social Work",
+    "image": "advisors/anastasia_fitian.jpeg",
+    "bio": "My name is Anastasia, and I am a licensed clinical social worker (LCSW) in MA. I got my Master of Social Work degree from Boston University and currently serve on an inpatient psychiatric unit at McLean Hospital. I have past work experience in child protective services with the Massachusetts Department of Children and Families (DCF). If anyone has any questions or is just curious about the field please don’t hesitate to reach out!",
+    "email": "anastasia.fitian@example.com",
+    "phone": "555-123-4567",
+    "twitter": "anastasiafitian"
   }
 ]
